@@ -1,26 +1,8 @@
-# sqlalchemy-challenge
-
-SQLAlchemy Homework - Surfs Up!
-
-Before You Begin
-
-
-Create a new repository for this project called sqlalchemy-challenge. Do not add this homework to an existing repository.
-
-
-Clone the new repository to your computer.
-
-
-Add your Jupyter notebook and app.py to this folder. These will be the main scripts to run for analysis.
-
-
-Push the above changes to GitHub or GitLab.
-
-
+# sqlalchemy-challenge - Surfs Up!
 
 Congratulations! You've decided to treat yourself to a long holiday vacation in Honolulu, Hawaii! To help with your trip planning, you need to do some climate analysis on the area. The following outlines what you need to do.
 
-Step 1 - Climate Analysis and Exploration
+##Step 1 - Climate Analysis and Exploration
 To begin, use Python and SQLAlchemy to do basic climate analysis and data exploration of your climate database. All of the following analysis should be completed using SQLAlchemy ORM queries, Pandas, and Matplotlib.
 
 
@@ -37,7 +19,7 @@ Use SQLAlchemy automap_base() to reflect your tables into classes and save a ref
 
 
 
-Precipitation Analysis
+#Precipitation Analysis
 
 
 Design a query to retrieve the last 12 months of precipitation data.
@@ -60,7 +42,7 @@ Use Pandas to print the summary statistics for the precipitation data.
 
 
 
-Station Analysis
+#Station Analysis
 
 
 Design a query to calculate the total number of stations.
@@ -94,7 +76,7 @@ Plot the results as a histogram with bins=12.
 
 
 
-Step 2 - Climate App
+##Step 2 - Climate App
 Now that you have completed your initial analysis, design a Flask API based on the queries that you have just developed.
 
 Use Flask to create your routes.
@@ -152,19 +134,6 @@ When given the start only, calculate TMIN, TAVG, and TMAX for all dates greater 
 
 
 When given the start and the end date, calculate the TMIN, TAVG, and TMAX for dates between the start and end date inclusive.
-
-
-
-
-
-Hints
-
-
-You will need to join the station and measurement tables for some of the queries.
-
-
-Use Flask jsonify to convert your API data into a valid JSON response object.
-
 
 
 
